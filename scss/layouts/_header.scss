@@ -1,0 +1,40 @@
+.header {
+  background-color: rgba(233, 150, 122, 0.479);
+  padding: 15px;
+
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__logo img {
+    width: 40px;
+  }
+
+  &__nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.header2 {
+  background-color: rgba(233, 150, 122, 0.479);
+  position: relative;
+  padding: 15px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__nav {
+    width: 50%;
+  }
+}
